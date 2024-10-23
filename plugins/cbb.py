@@ -13,12 +13,12 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     if data == "about":
         await query.message.edit_text(
             text = f"""<b>╭───────────⍟
-├➽ Dᴇᴠᴇʟᴏᴩᴇʀ : <a href='tg://user?id={6693549185}'>Mᴏᴏɴ</a>
+├➽ Dᴇᴠᴇʟᴏᴩᴇʀ : <a href='tg://user?id={6336845466}'>Mᴏᴏɴ</a>
 ├➽ Lɪʙʀᴀʀy : <a href=https://github.com/pyrogram>Pʏʀᴏɢʀᴀᴍ</a>
 ├➽ Lᴀɴɢᴜᴀɢᴇ : <a href=https://www.python.org>Pʏᴛʜᴏɴ 3</a>
-├➽ Sᴏᴜʀᴄᴇ Cᴏᴅᴇ : <a href=https://t.me/Tamil_Anime_Files>Tᴀᴍɪʟ Aɴɪᴍᴇ Fɪʟᴇs</a>
-├➽ Mᴀɪɴ Cʜᴀɴɴᴇʟ : <a href=https://t.me/Tamil_Anime_Files>Tᴀᴍɪʟ Aɴɪᴍᴇ Fɪʟᴇs</a>
-├➽ Mᴀɪɴ Gʀᴏᴜᴘ : <a href=https://t.me/Tamil_Anime_Files>Tᴀᴍɪʟ Aɴɪᴍᴇ Fɪʟᴇs</a></b>
+├➽ Sᴏᴜʀᴄᴇ Cᴏᴅᴇ : <a href=https://t.me/+D60zMCe2VocwYzVl>Aɴɪᴍᴇ Fʟᴀsʜ Xʏᴢ</a>
+├➽ Mᴀɪɴ Cʜᴀɴɴᴇʟ : <a https://t.me/+D60zMCe2VocwYzVl>Aɴɪᴍᴇ Fʟᴀsʜ Xʏᴢ</a>
+├➽ Mᴀɪɴ Gʀᴏᴜᴘ : <a href=https://t.me/+D60zMCe2VocwYzVl>Aɴɪᴍᴇ Fʟᴀsʜ Xʏᴢ</a></b>
 ╰───────────────⍟ """,
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
